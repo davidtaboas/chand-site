@@ -1,0 +1,20 @@
+README.md
+  h_80d7d4cb41ef50 1-8
+index.html
+  h_80d7d4cb41ef50 1-29
+privacy.html
+  h_80d7d4cb41ef50 1-61
+support.html
+  h_80d7d4cb41ef50 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "fa30c0664dc0399abd31c74d4298a9604f803941",
+  "prompts": {},
+  "humans": {
+    "h_80d7d4cb41ef50": {
+      "author": "David Táboas <david.taboas.glez@gmail.com>"
+    }
+  }
+}
