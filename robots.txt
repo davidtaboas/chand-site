@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidtaboas.github.io/chand-site/sitemap.xml
