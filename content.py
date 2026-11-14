@@ -80,11 +80,14 @@ EN = dict(
     zeros=[("accounts", "No sign-up and no login."),
            ("trackers", "No analytics and no third-party SDKs."),
            ("ads", "None, anywhere in the app."),
-           ("connections", "The app never connects to the internet.")],
+           ("data collected", "The app only talks to the App Store, for the subscription.")],
     privacy_link="Read the privacy policy", support_link="Support and contact",
 
     req_label="Requirements", req_h2="What you need.",
-    req=[("An iPhone", "With iOS 26 or later."),
+    req=[("Free, with Chand Pro",
+          "Free to download. Connecting the sensor, live force, your history and exporting your data are free. "
+          "Measuring, fatigue sessions and workouts need Chand Pro, a monthly subscription with a one-week free trial."),
+         ("An iPhone", "With iOS 26 or later."),
          ("A Bluetooth force sensor",
           "Chand works with sensors that use the Tindeq Progressor protocol. Chand is an independent app, "
           "not affiliated with or endorsed by any sensor manufacturer."),
@@ -183,11 +186,15 @@ ES = dict(
     zeros=[("cuentas", "Sin registro ni inicio de sesión."),
            ("rastreadores", "Sin analítica ni componentes de terceros."),
            ("anuncios", "Ninguno, en ninguna parte de la app."),
-           ("conexiones", "La app nunca se conecta a internet.")],
+           ("datos recogidos", "La app solo habla con el App Store, para la suscripción.")],
     privacy_link="Leer la política de privacidad", support_link="Ayuda y contacto",
 
     req_label="Requisitos", req_h2="Lo que necesitas.",
-    req=[("Un iPhone", "Con iOS 26 o posterior."),
+    req=[("Gratis, con Chand Pro",
+          "La descarga es gratuita. Conectar el sensor, la fuerza en vivo, tu historial y la exportación de tus datos "
+          "son gratis. Medir, las sesiones de fatiga y los entrenos necesitan Chand Pro, una suscripción mensual con "
+          "una semana de prueba gratuita."),
+         ("Un iPhone", "Con iOS 26 o posterior."),
          ("Un sensor de fuerza Bluetooth",
           "Chand funciona con los sensores que usan el protocolo del Tindeq Progressor. Chand es una app "
           "independiente, sin relación con ningún fabricante de sensores ni respaldada por ellos."),
@@ -210,7 +217,9 @@ PAGES = {
         "en": """<p class="label">Privacy</p>
 <h1>Privacy policy</h1>
 <p class="meta">Chand for iPhone · Last updated: 14 November 2026</p>
-<p class="key"><strong>Chand does not collect any data.</strong> The app has no accounts, no analytics, no advertising and no third-party SDKs, and it never connects to the internet.</p>
+<p class="key"><strong>Chand does not collect any data.</strong> The app has no accounts, no analytics, no advertising and no third-party SDKs. Its only connection to the internet is with the App Store, for the optional Chand Pro subscription.</p>
+<h2>Subscription</h2>
+<p>The Chand Pro subscription is purchased and billed by Apple through your Apple account. The developer does not receive your name, your payment details or any identifier: the app only learns from the App Store, on your device, whether a subscription is active.</p>
 <h2>What the app stores</h2>
 <p>Everything you record stays on your iPhone, inside the app: measurements and force curves, sessions, workouts, grips, templates, and the settings and profile you enter (name, body weight, dominant hand). None of it is sent to the developer or to anyone else.</p>
 <p>If you have iCloud Backup or an encrypted computer backup enabled, Apple includes the app's data in your device backup, under your own Apple account.</p>
@@ -231,7 +240,9 @@ PAGES = {
         "es": """<p class="label">Privacidad</p>
 <h1>Política de privacidad</h1>
 <p class="meta">Chand para iPhone · Última actualización: 14 de noviembre de 2026</p>
-<p class="key"><strong>Chand no recoge ningún dato.</strong> La app no tiene cuentas, ni analítica, ni publicidad, ni componentes de terceros, y nunca se conecta a internet.</p>
+<p class="key"><strong>Chand no recoge ningún dato.</strong> La app no tiene cuentas, ni analítica, ni publicidad, ni componentes de terceros. Su única conexión a internet es con el App Store, para la suscripción opcional Chand Pro.</p>
+<h2>Suscripción</h2>
+<p>La suscripción Chand Pro la vende y la cobra Apple a través de tu cuenta de Apple. El desarrollador no recibe tu nombre, tus datos de pago ni ningún identificador: la app solo sabe por el App Store, en tu dispositivo, si hay una suscripción activa.</p>
 <h2>Qué guarda la app</h2>
 <p>Todo lo que registras se queda en tu iPhone, dentro de la app: mediciones y curvas de fuerza, sesiones, entrenos, agarres, plantillas, y los ajustes y el perfil que escribas (nombre, peso corporal, mano dominante). Nada de eso se envía al desarrollador ni a nadie.</p>
 <p>Si tienes activada la copia de seguridad de iCloud o una copia cifrada en el ordenador, Apple incluye los datos de la app en la copia de tu dispositivo, bajo tu propia cuenta de Apple.</p>
@@ -258,6 +269,7 @@ PAGES = {
 <p>To report a problem or ask a question, <a href="{issues}">open an issue on GitHub</a>. Please include the app version (Settings → About), your iPhone model and iOS version, and the steps that lead to the problem.</p>
 <p class="contact"><a class="pill" href="{issues}">Open an issue</a></p>
 <h2>Common questions</h2>
+<details><summary>What is free and what needs Chand Pro?</summary><p>Connecting the sensor, live force, your history and exporting your data are free. Measuring, fatigue sessions and workouts need Chand Pro, a monthly subscription with a one-week free trial. You manage or cancel it from your Apple account (Settings → Subscription in the app).</p></details>
 <details><summary>Which sensors work?</summary><p>Chand works with Bluetooth force sensors that use the Tindeq Progressor protocol. Chand is an independent app and is not affiliated with or endorsed by any sensor manufacturer.</p></details>
 <details><summary>The sensor does not connect.</summary><p>Turn the sensor on, make sure Bluetooth is on and that Chand has Bluetooth permission (iOS Settings → Chand), close the manufacturer's app if it is connected to the sensor, and tap “Connect sensor” on the Today tab.</p></details>
 <details><summary>Can I try the app without a sensor?</summary><p>Yes. Turn on Settings → No sensor → Demo mode. “Connect sensor” then connects to a simulated sensor and a “Simulate pull” button appears on the measuring screens.</p></details>
@@ -273,6 +285,7 @@ PAGES = {
 <p>Para avisar de un problema o preguntar algo, <a href="{issues}">abre una incidencia en GitHub</a>. Indica la versión de la app (Ajustes → Acerca de), el modelo de iPhone y la versión de iOS, y los pasos que llevan al problema.</p>
 <p class="contact"><a class="pill" href="{issues}">Abrir una incidencia</a></p>
 <h2>Preguntas frecuentes</h2>
+<details><summary>¿Qué es gratis y qué necesita Chand Pro?</summary><p>Conectar el sensor, la fuerza en vivo, tu historial y la exportación de tus datos son gratis. Medir, las sesiones de fatiga y los entrenos necesitan Chand Pro, una suscripción mensual con una semana de prueba gratuita. Se gestiona o cancela desde tu cuenta de Apple (Ajustes → Suscripción en la app).</p></details>
 <details><summary>¿Qué sensores sirven?</summary><p>Chand funciona con sensores de fuerza Bluetooth que usan el protocolo del Tindeq Progressor. Chand es una app independiente, sin relación con ningún fabricante de sensores ni respaldada por ellos.</p></details>
 <details><summary>El sensor no conecta.</summary><p>Enciende el sensor, comprueba que el Bluetooth está activado y que Chand tiene permiso de Bluetooth (Ajustes de iOS → Chand), cierra la app del fabricante si está conectada al sensor y pulsa «Conectar sensor» en la pestaña Hoy.</p></details>
 <details><summary>¿Puedo probar la app sin sensor?</summary><p>Sí. Activa Ajustes → Sin sensor → Modo demo. «Conectar sensor» conecta entonces con un sensor simulado y aparece el botón «Simular tirón» en las pantallas de medición.</p></details>
