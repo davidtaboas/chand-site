@@ -1,0 +1,49 @@
+.gitignore
+  s_9c15fe87781f40::t_713aa4afe676b4 1
+README.md
+  s_9c15fe87781f40::t_965c60e275732c 3-4,6-9,12-31
+assets/fonts/OFL.txt
+  s_9c15fe87781f40::t_8588a135e8c9ac 1-93
+assets/site.css
+  s_9c15fe87781f40::t_10623cfcc0173f 1-264
+assets/site.js
+  s_9c15fe87781f40::t_ecc7fa59a9b9a2 1-50
+build.py
+  s_9c15fe87781f40::t_895003cecd6787 1-442
+content.py
+  s_9c15fe87781f40::t_81f5090df761d5 1-285
+es/index.html
+  s_9c15fe87781f40::t_7496cb25733c98 1-141
+es/privacy.html
+  s_9c15fe87781f40::t_b9851b7a608708 1-66
+es/support.html
+  s_9c15fe87781f40::t_6f44095f0086aa 1-60
+index.html
+  s_9c15fe87781f40::t_ebb02a2195589d 2,5-28,31-132,134-139
+privacy.html
+  s_9c15fe87781f40::t_dc415938fc0d3e 2,5-7,9-28,31-37,39-40,52-53,57,59-64
+robots.txt
+  s_9c15fe87781f40::t_00f191b76e9241 1-3
+sitemap.xml
+  s_9c15fe87781f40::t_03c32794cf7114 1-9
+support.html
+  s_9c15fe87781f40::t_fae762c22aa299 2,5-7,9-28,31-37,39,42,44-48,51,53-58
+tools/optimize-shots.sh
+  s_9c15fe87781f40::t_8074e9cd0202cf 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6fac66e582e29a4d863b0a8dc405eea0df304627",
+  "prompts": {},
+  "sessions": {
+    "s_9c15fe87781f40": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_9c15fe87781f40",
+        "model": "unknown"
+      },
+      "human_author": "David Táboas <david.taboas.glez@gmail.com>"
+    }
+  }
+}
