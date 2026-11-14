@@ -1,0 +1,31 @@
+content.py
+  s_9e4b7de20cf170::t_d88907cae5251e 83,87-90,189,193-197,220-222,243-245,272,288
+es/index.html
+  s_9e4b7de20cf170::t_85210e61464ac7 121,130
+es/privacy.html
+  s_9e4b7de20cf170::t_c7b7a51cc1ab6b 40-42
+es/support.html
+  s_9e4b7de20cf170::t_13bd43c6abe51c 44
+index.html
+  s_9e4b7de20cf170::t_b774fa225703f8 121,130
+privacy.html
+  s_9e4b7de20cf170::t_ec4329ec809770 40-42
+support.html
+  s_9e4b7de20cf170::t_0f1c54e5067538 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "20eb04d5089e315524cb9c862b5c0e4bb353bf1e",
+  "prompts": {},
+  "sessions": {
+    "s_9e4b7de20cf170": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_9e4b7de20cf170",
+        "model": "unknown"
+      },
+      "human_author": "David Táboas <david.taboas.glez@gmail.com>"
+    }
+  }
+}
