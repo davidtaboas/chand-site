@@ -111,7 +111,9 @@ p { margin: 0; text-wrap: pretty; }
 }
 
 /* Marco de iPhone */
-.phone { margin: 0; padding: 2.4%; border-radius: 17.5% / 8.1%; background: #08090b; box-shadow: 0 0 0 1px #2c3038, 0 0 0 3px #0c0d10, 0 40px 80px -30px rgb(0 0 0 / 0.65); }
+.phone { margin: 0; border-radius: 17.5% / 8.1%; background: #08090b; box-shadow: 0 0 0 1px #2c3038, 0 0 0 3px #0c0d10, 0 40px 80px -30px rgb(0 0 0 / 0.65); }
+/* El borde va en picture: un porcentaje en .phone se mediría contra el contenedor, no contra el marco. */
+.phone picture { display: block; padding: 2.4%; }
 .phone img { width: 100%; border-radius: 15.6% / 7.2%; background: #000; }
 
 /* Secciones */
