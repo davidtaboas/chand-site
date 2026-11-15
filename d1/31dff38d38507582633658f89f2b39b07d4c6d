@@ -1,0 +1,19 @@
+assets/site.css
+  s_fdcd867a5f1f0e::t_c2bc1dd92dedf8 114-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d131dff38d38507582633658f89f2b39b07d4c6d",
+  "prompts": {},
+  "sessions": {
+    "s_fdcd867a5f1f0e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_fdcd867a5f1f0e",
+        "model": "unknown"
+      },
+      "human_author": "David Táboas <david.taboas.glez@gmail.com>"
+    }
+  }
+}
